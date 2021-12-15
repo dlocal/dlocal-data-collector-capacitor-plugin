@@ -2,7 +2,10 @@
 
 DLocal's Data Collector SDK capacitor plugin for ionic
 
-This plugin is a wrapper of the native SDKs which can be found here [iOS](https://bitbucket.org/dlocal-public/data-collector-sdk-ios/src/master/), [Android](https://bitbucket.org/dlocal-public/data-collector-sdk-android/src/master/)
+This plugin is a wrapper of the native SDKs which can be found here:
+
+* [iOS](https://bitbucket.org/dlocal-public/data-collector-sdk-ios/src/master/)
+* [Android](https://bitbucket.org/dlocal-public/data-collector-sdk-android/src/master/)
 
 More info about the functionallity of the SDK on each platform can be found on those repositories.
 
