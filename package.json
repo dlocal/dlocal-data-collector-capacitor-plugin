@@ -14,7 +14,7 @@
     "DlDataCollectorCapacitorPlugin.podspec"
   ],
   "author": "",
-  "license": "Custom",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/dlocal-public/dlocal-data-collector-capacitor-plugin.git"
