@@ -49,6 +49,7 @@ repositories {
 
 
 dependencies {
+    implementation 'com.dlocal.android:data-collector:0.1.2'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':capacitor-android')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"

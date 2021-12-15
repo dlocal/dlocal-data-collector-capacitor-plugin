@@ -4,5 +4,6 @@
 // Define the plugin using the CAP_PLUGIN Macro, and
 // each method the plugin supports using the CAP_PLUGIN_METHOD macro.
 CAP_PLUGIN(DataCollectorSDKPlugin, "DataCollectorSDK",
-           CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
-)
+           CAP_PLUGIN_METHOD(setUp, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(startSession, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(getSession, CAPPluginReturnPromise);)

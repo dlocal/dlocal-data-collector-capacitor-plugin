@@ -9,6 +9,7 @@ end
 
 target 'Plugin' do
   capacitor_pods
+  pod 'DLDataCollectorSDK', '~> 0.1.0'
 end
 
 target 'PluginTests' do
