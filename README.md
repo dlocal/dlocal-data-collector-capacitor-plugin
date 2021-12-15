@@ -10,19 +10,28 @@ This plugin is a wrapper of the native SDKs which can be found here:
 More info about the functionallity of the SDK on each platform can be found on those repositories.
 
 ## Install
-### as a dependency:
+### As a dependency:
 - Add the following dependency to the package.json:
 ```json
-    "dl-data-collector-capacitor-plugin": "https://bitbucket.org/dlocal-public/dlocal-data-collector-capacitor-plugin.git#v0.0.1"
-  }
-```
+{
 
+    "dependencies": {
+        ...
+        "dl-data-collector-capacitor-plugin": "https://bitbucket.org/dlocal-public/dlocal-data-collector-capacitor-plugin.git#v0.0.1"
+        ...
+    }
+    
+}
+```
+- Run the following commands:
 ```bash
 npm install
 
 npx cap sync
 ```
+
 ### Manual
+- Run the following commands:
 ```bash
 npm install https://bitbucket.org/dlocal-public/dlocal-data-collector-capacitor-plugin.git#v0.0.1
 
@@ -33,7 +42,8 @@ npx cap sync
 ### Setup on app start
 Add this to your app startup, 
 ```javascript
-import { DataCollectorSDK, DLEnvironment } from 'dl-data-collector-capacitor-plugin';
+    import { DataCollectorSDK, DLEnvironment } from 'dl-data-collector-capacitor-plugin';
+
 
     DataCollectorSDK.setUp({
       apiKey: "TEST",
@@ -41,6 +51,7 @@ import { DataCollectorSDK, DLEnvironment } from 'dl-data-collector-capacitor-plu
     });
 
     DatacollectorSDK.startSession();
+    
 ```
 Replacing `apiKey` with your key.
 
@@ -48,7 +59,7 @@ Replacing `apiKey` with your key.
 When the user starts the checkout transaction, gather the session id like so:
 
 ```javascript
-import { DataCollectorSDK } from 'dl-data-collector-capacitor-plugin';
+    import { DataCollectorSDK } from 'dl-data-collector-capacitor-plugin';
 
     var sessionId = (await DataCollectorSDK.getSession()).sessionId;
 ```
