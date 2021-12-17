@@ -13,5 +13,5 @@
 - Run for Android `ionic capacitor run android -l --external`
 
 ## Example
-* See [Home.tsx](/src/pages/Home.tsx) to see how to set up the SDK
-* See [Session.tsx](/src/pages/Session.tsx) to see how to set up the SDK
+* See [Home.tsx](/SampleApp/src/pages/Home.tsx) to see how to set up the SDK
+* See [Session.tsx](/SampleApp/src/pages/Session.tsx) to see how to set up the SDK
