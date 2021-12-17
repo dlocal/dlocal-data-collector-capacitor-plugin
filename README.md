@@ -65,6 +65,10 @@ When the user starts the checkout transaction, gather the session id like so:
 ```
 Submit this value in the payment request within the `additional_risk_data.device.event_uuid` parameter. The `sessionId` can be `undefined` if a session is not available or an error occurred.
 
+
+## Sample App:
+Please check out the Sample App (at [SampleApp/](SampleApp/)) to see a practical example.
+
 ## API
 * [`setUp(...)`](#setup)
 * [`startSession()`](#startsession)
