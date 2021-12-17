@@ -14,4 +14,4 @@
 
 ## Example
 * See [Home.tsx](/SampleApp/src/pages/Home.tsx) to see how to set up the SDK
-* See [Session.tsx](/SampleApp/src/pages/Session.tsx) to see how to set up the SDK
+* See [Session.tsx](/SampleApp/src/pages/Session.tsx) to see how to get the session id
