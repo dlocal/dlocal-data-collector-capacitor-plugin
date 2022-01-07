@@ -42,7 +42,7 @@ public class DataCollectorSDKPlugin extends Plugin {
 
     @PluginMethod
     public void startSession(PluginCall call) { 
-        DLCollector.getInstance().startSession();
+        DLCollector.startSession();
         call.resolve();
     }
 
@@ -50,7 +50,7 @@ public class DataCollectorSDKPlugin extends Plugin {
     public void getSession(PluginCall call) {
         JSObject response = new JSObject();
         try {
-            String id = DLCollector.getInstance().getSessionId();
+            String id = DLCollector.getSessionId();
             response.put("sessionId", id);
         } catch (Exception e) {
             response.put("sessionId", null);

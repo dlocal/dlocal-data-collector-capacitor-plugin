@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1'
 
   s.dependency 'Capacitor'
-  s.dependency 'DLDataCollectorSDK', '~> 0.1.0'
+  s.dependency 'DLDataCollectorSDK', '~> 0.1'
 end
