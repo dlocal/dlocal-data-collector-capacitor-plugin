@@ -1,6 +1,6 @@
 {
   "name": "dl-data-collector-capacitor-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dLocal Data Collector SDK ionic plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -46,7 +46,8 @@
   },
   "devDependencies": {
     "@capacitor/android": "^3.0.0",
-    "@capacitor/core": "^3.0.0",
+    "@capacitor/cli": "^3.3.4",
+    "@capacitor/core": "^3.3.4",
     "@capacitor/docgen": "^0.0.18",
     "@capacitor/ios": "^3.0.0",
     "@ionic/eslint-config": "^0.3.0",
